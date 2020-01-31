@@ -1,1 +1,1 @@
-export * from "./lib/entity/index";
+export * from "./lib/entity/public_api";

@@ -1,10 +1,15 @@
 {
-  "name": "@scholar/sdk",
+  "name": "scholar-typescript-sdk",
   "version": "0.0.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "description": "The sdk for typescript project",
   "main": "index.js",
   "types": "index.d.ts",
-  "files": ["/dist"],
+  "files": [
+    "/dist"
+  ],
   "author": "chendjou caleb de Grace",
   "license": "MIT",
   "private": false,
@@ -13,6 +18,9 @@
     "prepare": "npm run build"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "@positon/collections": "^0.0.2",
+    "axios": "^0.19.2",
+    "class-validator": "^0.11.0",
+    "rxjs": "^6.5.4"
   }
 }
