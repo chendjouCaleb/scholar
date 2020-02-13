@@ -1,9 +1,13 @@
-import {Entity} from "../entity";
-import {User} from "../user";
-import {IList, List} from "@positon/collections";
-import {Email} from "../email";
-import {Phone} from "../phone";
-import {Address} from "../address";
+/**
+ * Represents an Organisation.
+ */
+
+import { Entity } from "../entity";
+import { User } from "../user";
+import { IList, List } from "@positon/collections";
+import { Email } from "../email";
+import { Phone } from "../phone";
+import { Address } from "../address";
 
 export class Organisation extends Entity<number>{
     name: string;

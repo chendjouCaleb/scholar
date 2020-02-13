@@ -1,9 +1,9 @@
 /**
  * Represents a faculty.
  */
-import {School} from "./school";
+import { School } from "./school";
 
-export class Faculty extends School{
+export class Faculty extends School {
 
     /**
      * The parent university of the faculty.
